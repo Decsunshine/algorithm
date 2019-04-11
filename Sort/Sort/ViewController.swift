@@ -20,16 +20,29 @@ class ViewController: UIViewController {
         }
         print("start")
         let startTime = CACurrentMediaTime()
+        print(nums1)
         QuickSort.init().sort(&nums1, 0, nums1.count - 1)
+        print(nums1)
         let endTime = CACurrentMediaTime()
         print("Time - \(endTime - startTime)")
         
         let startTime2 = CACurrentMediaTime()
+        print(nums2)
         ThreeWayQuickSort.init().sort(&nums2, 0, nums2.count - 1)
+        print(nums2)
         let endTime2 = CACurrentMediaTime()
         print("Time - \(endTime2 - startTime2)")
     }
-
+    
+    func createRandomArray(count: Int) -> Array<Int>! {
+        var array = [Int]()
+        for _ in 0...(count - 1) {
+            array.append(createRandomMan(start: 1,end: 100)() ?? 0)
+        }
+        
+        return array
+    }
+    
     func createRandomMan(start: Int, end: Int) ->() ->Int! {
         //根据参数初始化可选值数组
         var nums = [Int]();
@@ -48,15 +61,6 @@ class ViewController: UIViewController {
             }
         }
         return randomMan
-    }
-    
-    func createRandomArray(count: Int) -> Array<Int>! {
-        var array = [Int]()
-        for _ in 0...(count - 1) {
-            array.append(createRandomMan(start: 1,end: 100)())
-        }
-        
-        return array
     }
 }
 
