@@ -16,6 +16,7 @@
 		756F04DB225E1133003FE246 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 756F04DA225E1133003FE246 /* QuickSort.m */; };
 		756F04DE225E257A003FE246 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 756F04DD225E257A003FE246 /* MergeSort.m */; };
 		756F04E1225E47C8003FE246 /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 756F04E0225E47C8003FE246 /* HeapSort.m */; };
+		756F04E4225EF6D8003FE246 /* binarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 756F04E3225EF6D8003FE246 /* binarySearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		756F04DD225E257A003FE246 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		756F04DF225E47C8003FE246 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
 		756F04E0225E47C8003FE246 /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		756F04E2225EF6D8003FE246 /* binarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binarySearch.h; sourceTree = "<group>"; };
+		756F04E3225EF6D8003FE246 /* binarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = binarySearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				756F04DD225E257A003FE246 /* MergeSort.m */,
 				756F04DF225E47C8003FE246 /* HeapSort.h */,
 				756F04E0225E47C8003FE246 /* HeapSort.m */,
+				756F04E2225EF6D8003FE246 /* binarySearch.h */,
+				756F04E3225EF6D8003FE246 /* binarySearch.m */,
 				756F04C9225E10E2003FE246 /* Main.storyboard */,
 				756F04CC225E10E4003FE246 /* Assets.xcassets */,
 				756F04CE225E10E4003FE246 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 			files = (
 				756F04DE225E257A003FE246 /* MergeSort.m in Sources */,
 				756F04C8225E10E2003FE246 /* ViewController.m in Sources */,
+				756F04E4225EF6D8003FE246 /* binarySearch.m in Sources */,
 				756F04D3225E10E4003FE246 /* main.m in Sources */,
 				756F04E1225E47C8003FE246 /* HeapSort.m in Sources */,
 				756F04C5225E10E2003FE246 /* AppDelegate.m in Sources */,
