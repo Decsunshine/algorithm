@@ -27,9 +27,9 @@
     NSLog(@"%@", unsortArray);
     
     
-    NSNumber *target = @(58);
-    NSInteger index = [[binarySearch new] search:unsortArray target:target];
-    NSLog(@"target %@, index %ld", target, (long)index);
+//    NSNumber *target = @(58);
+//    NSInteger index = [[binarySearch new] search:unsortArray target:target];
+//    NSLog(@"target %@, index %ld", target, (long)index);
 }
 
 
