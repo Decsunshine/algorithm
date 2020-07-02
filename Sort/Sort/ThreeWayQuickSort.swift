@@ -50,7 +50,7 @@ class ThreeWayQuickSort: Sort {
         }
 
         self.sort(&nums, first, lowIndex - 1)
-        self.sort(&nums, lowIndex + 1, highIndex - 1)
+        // self.sort(&nums, lowIndex + 1, highIndex - 1)  这个可以不要，是有序的
         self.sort(&nums, highIndex + 1, end)
     }
 }
